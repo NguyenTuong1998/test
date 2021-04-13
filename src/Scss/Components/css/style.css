@@ -1,0 +1,40 @@
+.buyticket {
+  margin: 1rem 0;
+}
+
+.buyticket .booking {
+  justify-content: space-evenly;
+}
+
+.buyticket .booking .movie,
+.buyticket .booking .location,
+.buyticket .booking .date-seeing,
+.buyticket .booking .time {
+  background-color: orange;
+  padding: 0.1rem 5rem 0.1rem 0;
+  border: 1px transparent #000;
+  border-radius: 1rem;
+}
+
+.buyticket .booking .movie button,
+.buyticket .booking .location button,
+.buyticket .booking .date-seeing button,
+.buyticket .booking .time button {
+  font-weight: 500;
+}
+
+.buyticket .booking button {
+  font-weight: 500;
+  position: relative;
+}
+
+.buyticket .booking button:focus {
+  box-shadow: none;
+}
+
+.buyticket .booking .dropdown-toggle::after {
+  position: absolute;
+  left: 150%;
+  top: 40%;
+}
+/*# sourceMappingURL=style.css.map */

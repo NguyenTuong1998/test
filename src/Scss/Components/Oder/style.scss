@@ -1,0 +1,30 @@
+.buyticket {
+  margin: 1rem 0;
+  .booking {
+    justify-content: space-evenly;
+    .movie,
+    .location,
+    .date-seeing,
+    .time {
+      background-color: orange;
+      padding: 0.1rem 5rem 0.1rem 0;
+      border: 1px transparent #000;
+      border-radius: 1rem;
+      button {
+        font-weight: 500;
+      }
+    }
+    button {
+      font-weight: 500;
+      position: relative;
+      &:focus {
+        box-shadow: none;
+      }
+    }
+    .dropdown-toggle::after {
+      position: absolute;
+      left: 150%;
+      top: 40%;
+    }
+  }
+}
